@@ -396,10 +396,14 @@ hr {
     width: 33.33%;
 }
 
+.buster_overview_card {
+    position :relative;
+}
+
 .buster_card {
     float: left;
     background: white;
-    box-shadow: 0px 2.5px 10px 0px rgb(185, 185, 185);
+    box-shadow: 0px 2.5px 10px 0px rgba(1, 1, 1, 0.15);
     -webkit-transition: transform 0.15s ease-in-out;
     transition: transform 0.15s ease-in-out;
     -moz-transition: transform 0.15s ease-in-out;
@@ -501,6 +505,18 @@ hr {
 
 .buster_post_tags:hover {
     /*color: #0090d2;*/
+}
+
+.buster_featured_card {
+    position: absolute;
+    right: -10px;
+    top: 10px;
+    padding: 7px;
+}
+
+.buster_featured_card i {
+    color: #f1f100;
+    padding-right: 0.2em;
 }
 
 .buster_wrapper_pagination {
