@@ -642,16 +642,27 @@ hr {
     font-weight: 400;
 }
 
+.card-content-post h1 {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0 0;
+}
+
 .card-content-post h2 {
     font-weight: 500;
     font-size: 18px;
     margin: 0 0;
-
 }
 
 .card-content-post h3 {
     font-weight: 500;
     font-size: 16px;
+    margin: 0 0;
+}
+
+.card-content-post h4,h5,h6 {
+    font-weight: 500;
+    font-size: 14px;
     margin: 0 0;
 }
 
