@@ -603,6 +603,21 @@ hr {
     font-size: 48px;
 }
 
+.card.tag {
+    position: fixed;
+    right: 10px;
+    padding: 10px;
+    bottom: 10px;
+}
+
+.card.tag i {
+    margin-right: 3px;
+}
+
+a.filter-removal {
+    margin-left: 10px;
+}
+
 /* Post view */
 
 .post-view {
